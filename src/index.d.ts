@@ -97,6 +97,7 @@ declare class SignatureType extends Common {
 
 export function init(curveType: CurveType): Promise<void>;
 export function blsInit(curveType: CurveType): void;
+export function setDstG2(dst: string): void;
 
 export function toHex(a: Uint8Array, start: number, length: number): string;
 export function toHexStr(a: Uint8Array): string;
